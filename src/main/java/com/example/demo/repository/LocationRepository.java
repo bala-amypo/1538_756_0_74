@@ -1,8 +1,12 @@
+
 package com.example.demo.repository;
 
-import com.example.demo.entity.Location;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface LocationR extends JpaRepository&lt;Location, Long&gt; {
+import com.example.demo.entity.LocationEntity;
 
+public interface LocationRepository extends JpaRepository<LocationEntity,Long> {
+    
 }
+
+
