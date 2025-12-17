@@ -26,4 +26,3 @@ public class LocationController {
         return locationService.getalllocation();
     }
 }
-
